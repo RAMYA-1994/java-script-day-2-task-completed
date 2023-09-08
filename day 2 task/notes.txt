@@ -1,0 +1,55 @@
+difference between window screen and document in javascript
+The window object represents the browser window itself and provides methods for interacting with the browser's environment. 
+The document object represents the current web page's content and structure, allowing manipulation using the DOM.
+A document is an object inside the window object and we use a document object for manipulation inside the document. 
+The first thing that gets loaded into the browser is the window and the properties related to that window are stored 
+in the window object.
+
+The window is the actual global object. 
+The screen is the screen, it contains properties about the user's display
+the document is where the DOM is.
+
+The Document object(DOM) is your html, aspx, php, or other document that will be loaded into the browser. 
+The document actually gets loaded inside the window object and has properties available
+ to it like title, URL, cookie,
+
+Windows object:
+It gives access to the browser's methods and attributes as the global object in the browser environment. 
+The window object is the global object in the web browser environment.
+ It represents the current window or frames that the JavaScript code is running in.
+ A browser window is represented by the window object.
+
+  difference between window and document and viewport:
+ It is your  device screen. Window: It is your browser window.
+ The window can be as big as viewport or smaller. Document: 
+ It is the webpage.
+
+The DOM is a tree-like representation of the web page that gets loaded into the browser. 
+It represents the web page using a‌‌ series of objects. The main object is the document object, 
+which in turn houses other objects which also house their own objects, and so .
+
+ different types of objects in windows:
+The system provides three categories of objects: 
+user, graphics device interface (GDI), and kernel. 
+The system uses user objects to support window management, GDI objects to support graphics, 
+and kernel objects to support memory management, process execution, and interprocess communications (IPC).
+
+ user objects in Windows:
+User objects are accelerator tables, carets, icons, cursors, 
+DDE conversations, hooks, menus, windows, and window positions. 
+Almost any Windows application, directly or indirectly, creates user objects: 
+when a window is shown, an appropriate HWND is allocated.
+
+he window object is supported by all browsers. 
+It represents the browser's window. 
+All global JavaScript objects, functions, and variables automatically become members of the window object. 
+Global variables are properties of the window object. 
+Global functions are methods of the window object.
+
+The Document Object Model is not used to describe objects in XML or HTML
+ whereas the DOM describes XML and HTML documents as objects. 
+The Document Object Model is not represented by a set of data structures;
+ it is an interface that specifies object representation.
+
+
+
